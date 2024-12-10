@@ -47,3 +47,21 @@ car.run = function() {
 
 // Run acts like run
 console.log(car.run());
+
+
+
+let cars = {
+    name: 'Audi'
+};
+
+// Accessing property
+console.log(cars.name);
+console.log(cars['name']); // Accessing using key value
+console.log(cars['name'] = 'BMW'); // Changing the value of the property
+
+
+
+/**
+ * BEST Practice: When using OOP concept or specific direction then we have to use classical way of creating object
+ * ELSE use Literal Way to create object
+ */
